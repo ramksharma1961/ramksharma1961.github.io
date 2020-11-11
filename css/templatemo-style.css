@@ -467,15 +467,14 @@ background: url('../images/about.jpg') no-repeat;
 }
 
 
-#project .row {
-  display: table;
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
 }
 
-#project [class*="col-"]  {
-  float: none;
-  display: table-cell;
-  vertical-align: top;
-}
     
 #project h1
 {
