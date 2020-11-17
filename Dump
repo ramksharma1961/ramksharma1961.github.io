@@ -1,0 +1,31 @@
+About Region Columns
+<div class="bg-dark col-md-3 col-sm-6">
+                    <div class="wow fadeInUp color-white about-thumb" data-wow-delay="0.8s">
+                         <i class="fa fa-gamepad"></i>
+                         <h3>Game Developer</h3>
+                         <p class="color-white">Passionate about video games and Developing them
+                              too.<br>&nbsp;<br>&nbsp;<br>&nbsp;</p>
+                    </div>
+               </div>
+               <div class="bg-orange col-md-3 col-sm-6">
+                    <div class="wow fadeInUp color-white about-thumb" data-wow-delay="1.2s">
+                         <i class="fa fa-file-movie-o"></i>
+                         <h3>Mixed Reality Developer</h3>
+                         <p class="color-white">Creating Solutions by integrating interactive
+                              technology.<br>&nbsp;<br>&nbsp;<br>&nbsp;</p>
+                    </div>
+               </div>
+
+
+List
+Home Section
+                <ul class="wow fadeInUp social-icon" data-wow-delay="2s">
+                                        <li><a href="https://www.facebook.com/gameboy9800" class="fa fa-facebook"></a>
+                                        </li>
+                                        <li><a href="https://www.linkedin.com/in/codeshubham/"
+                                                  class="fa fa-linkedin"></a></li>
+                                        <li><a href="https://github.com/codeplay9800" class="fa fa-github"></a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=M_rF7mok-Ek"
+                                                  class="fa fa-file-movie-o"></a></li>
+                                   </ul>                   
+                                  
