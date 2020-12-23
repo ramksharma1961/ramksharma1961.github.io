@@ -518,7 +518,7 @@ a:focus {
 }
 
 #project h1 {
-    background: #8B4513;
+    /* background: #8B4513; */
     font-family: url(sansation_bold.woff);
     font-weight: bold;
 }
