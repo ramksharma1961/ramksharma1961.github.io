@@ -599,7 +599,37 @@ a:focus {
 -----------------------------------------*/
 
 #education {
-    background: #E3AE57;
+    background: #085813;
+}
+
+#education .education-img1 {
+    background: url('../images/about.jpg');
+    /* background-size: 100% 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#education .education-img2 {
+    background: url('../images/about 2.jfif');
+    /* background-size: 100% 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#education .education-img3 {
+    background: url('../images/about 3.jfif');
+    /* background-size: 100% 100%; */
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
