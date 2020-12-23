@@ -561,12 +561,17 @@ a:focus {
 -----------------------------------------*/
 
 #experience .experience-thumb {
-    padding: 52px 22px 52px 22px;
+    padding: 32px 22px 52px 22px;
 }
 
 #experience .experience-img {
-    background: url('../images/experience-img.jpg') no-repeat;
-    border-radius: 80%;
+    background: url('../images/rksharma1.jpg') no-repeat;
+    /* border-radius: 80%; */
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #experience .experience-img-props {
@@ -735,7 +740,7 @@ a:focus {
 }
 
 #contact .contact-img {
-    background: url('../images/contact-img.jpg') no-repeat;
+    background: url('../images/building.jpg') no-repeat;
     min-height: 75vh;
 }
 
