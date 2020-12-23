@@ -426,8 +426,20 @@ a:focus {
    About section              
 -----------------------------------------*/
 
+#about .container-mid {
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    margin: 0;
+}
+
 #about .about-img {
-    background: url('../images/about.jpg') no-repeat;
+    background: url('../images/about.jpg');
+    /* background-size: 100% 100%; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #about .about-thumb,
@@ -444,7 +456,6 @@ a:focus {
 
 #about .about-heading {
     text-align: center;
-    font-weight: bold;
 }
 
 #about .about-heading-para {
@@ -549,8 +560,19 @@ a:focus {
     Experience section              
 -----------------------------------------*/
 
+#experience .experience-thumb {
+    padding: 52px 22px 52px 22px;
+}
+
 #experience .experience-img {
     background: url('../images/experience-img.jpg') no-repeat;
+    border-radius: 80%;
+}
+
+#experience .experience-img-props {
+    background-position: center!important;
+    background-size: contain !important;
+    min-height: 40vh;
 }
 
 #experience .media-heading {
@@ -567,6 +589,10 @@ a:focus {
     font-weight: bold;
 }
 
+#experience .experience-heading {
+    text-align: center;
+}
+
 
 /*---------------------------------------
     Education section              
@@ -576,16 +602,21 @@ a:focus {
     background: #E3AE57;
 }
 
-#education .education-img {
+
+/* #education .education-img {
     background: url('../images/education-img.jpg') no-repeat;
-}
+} */
 
 #education .media-heading {
     margin-bottom: 0px;
 }
 
+#education .education-heading {
+    text-align: center;
+}
+
 #education .media .fa {
-    font-size: 42px;
+    font-size: 20px;
     margin-right: 14px;
 }
 
@@ -664,13 +695,13 @@ a:focus {
 -----------------------------------------*/
 
 #contact {
-    background: #E9724C;
+    background: #000000;
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
-    padding: 22px 32px 22px 32px;
-    min-height: 75vh;
+    padding: 22px 32px 0px 32px;
+    min-height: 54vh;
 }
 
 #contact .contact-img {
@@ -811,6 +842,11 @@ footer {
         padding-bottom: 5px;
         padding-left: 5px;
     }
+    #about .container-mid {
+        width: 100%;
+        padding: 0px 15px 15px 15px;
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -831,6 +867,11 @@ footer {
     #contact .container {
         padding-right: 15px;
         padding-left: 15px;
+    }
+    #about .container-mid {
+        width: 100%;
+        padding: 0px 30px 30px 30px;
+        margin: 0;
     }
     #about .col-md-3,
     #experience .col-md-6,
