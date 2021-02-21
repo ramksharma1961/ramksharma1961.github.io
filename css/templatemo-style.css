@@ -498,6 +498,17 @@ a:focus {
     padding-bottom: 2px;
 }
 
+#about .equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .img-responsive {
+    padding: 0px;
+    line-height: 0;
+    max-width: 500
+}
+
 
 /*---------------------------------------
     project section              
@@ -605,6 +616,10 @@ a:focus {
 
 #education {
     background: #085813;
+}
+
+#education .education-thumb {
+    padding: 32px 22px 52px 22px;
 }
 
 #education .education-img1 {
